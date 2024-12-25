@@ -205,7 +205,7 @@ function createForecastWeatherSection(cityName, forecasts) {
 
   const title = document.createElement('h2');
   title.classList.add('section-title');
-  title.innerText = `Vremea in ${cityName} in urmatoarele zile`;
+  title.innerText = `Vremea în ${cityName} în următoarele zile`;
   forecastSection.append(title);
 
   const weatherItems = document.createElement('div');
@@ -250,7 +250,7 @@ function createWeatherPanel(weather, isToday) {
   temp.innerText = `Temperatura: ${weather.temp}°C`;
 
   const wind = document.createElement('p');
-  wind.innerText = `Vant: ${weather.wind} km/h`;
+  wind.innerText = `Vânt: ${weather.wind} km/h`;
 
   const humidity = document.createElement('p');
   humidity.innerText = `Umiditate: ${weather.humidity} %`;
